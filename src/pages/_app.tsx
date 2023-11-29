@@ -7,17 +7,17 @@ import GoogleAnalytics from "@/components/GoogleAnalytics";
 const rostelecom = localFont({
     src: [
         {
-            path: '../../public/fonts/rostelecomBasis-Regular.woff2',
+            path: './fonts/rostelecomBasis-Regular.woff2',
             weight: '400',
             style: 'normal'
         },
         {
-            path: '../../public/fonts/rostelecomBasis-Medium.woff2',
+            path: './fonts/rostelecomBasis-Medium.woff2',
             weight: '500',
             style: 'normal'
         },
         {
-            path: '../../public/fonts/rostelecomBasis-Bold.woff2',
+            path: './fonts/rostelecomBasis-Bold.woff2',
             weight: '700',
             style: 'normal'
         },
