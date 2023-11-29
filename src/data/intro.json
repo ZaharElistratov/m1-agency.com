@@ -1,0 +1,12 @@
+[
+  {
+    "locale": "en",
+    "title": "<span>Marketing</span> —&nbsp;it's about uniqueness",
+    "img": "/img/home/intro/img.png"
+  },
+  {
+    "locale": "ru",
+    "title": "<span>Маркетинг</span> —&nbsp;это про уникальность",
+    "img": "/img/home/intro/img.png"
+  }
+]

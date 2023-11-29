@@ -1,0 +1,101 @@
+.select {
+  min-width: 240px;
+
+  font-family: var(--font-rostelecom);
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2em;
+
+  position: relative;
+
+  cursor: pointer;
+}
+
+.head {
+  padding: 35px 60px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+  border-radius: 65px;
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+.body {
+  margin: 0;
+  padding: 35px 40px;
+
+  width: 100%;
+
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  position: absolute;
+  top: 150px;
+
+  border-radius: 65px;
+  background: var(--color-white);
+  color: var(--color-black);
+}
+
+@media (max-width: 2980px) {
+  .select {
+    min-width: 80px;
+
+    font-size: 20px;
+  }
+
+  .head {
+    padding: 16px 28px;
+
+    gap: 10px;
+
+    svg {
+      width: 12px;
+      height: 12px;
+    }
+  }
+
+  .body {
+    padding: 16px 24px;
+
+    gap: 10px;
+    top: 76px;
+
+    border-radius: 28px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .select {
+    min-width: 50px;
+
+    font-size: 16px;
+  }
+
+  .head {
+    padding: 8px 16px;
+
+    gap: 5px;
+
+    svg {
+      width: 8px;
+      height: 8px;
+    }
+  }
+
+  .body {
+    padding: 8px 12px;
+
+    gap: 8px;
+    top: 50px;
+
+    border-radius: 16px;
+  }
+}

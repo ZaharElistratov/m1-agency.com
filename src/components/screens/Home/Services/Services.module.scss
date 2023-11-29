@@ -1,0 +1,148 @@
+.services {
+  margin-top: 120px;
+  padding: 120px 0;
+
+  background: url("/img/home/services/background.png") no-repeat left top / cover;
+}
+
+.title {
+  font-family: var(--font-rostelecom);
+  font-weight: 700;
+
+  font-size: 170px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+.body {
+  margin-top: 120px;
+
+  width: 100%;
+  min-height: 1200px;
+
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  gap: 60px;
+}
+
+.tabs {
+  padding: 40px 32px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  border-radius: 52px;
+  background: #171747;
+}
+
+.tab {
+  padding: 48px 60px;
+
+  font-family: var(--font-rostelecom);
+  font-weight: 400;
+
+  font-size: 60px;
+  line-height: 1.2em;
+
+  border-radius: 52px;
+  border: 5px solid #8c8c8c;
+  background: transparent;
+  color: var(--color-white);
+
+  cursor: pointer;
+
+  transition: color .3s ease, background-color .3s ease, border-color .3s ease;
+
+  &:hover, &.active {
+    font-weight: 700;
+
+    border: 5px solid var(--color-accent);
+    background: var(--color-accent);
+    color: var(--color-black);
+  }
+}
+
+@media (max-width: 2980px) {
+  .services {
+    margin-top: 50px;
+    padding: 50px 0;
+  }
+
+  .title {
+    font-size: 64px;
+  }
+
+  .body {
+    margin-top: 50px;
+
+    min-height: 500px;
+
+    gap: 24px;
+  }
+
+  .tabs {
+    padding: 16px 32px;
+
+    gap: 12px;
+
+    border-radius: 20px;
+  }
+
+  .tab {
+    padding: 20px 24px;
+
+    font-size: 24px;
+
+    border-radius: 20px;
+    border: 2px solid #8c8c8c;
+
+    &:hover, &.active {
+      border: 2px solid var(--color-accent);
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .services {
+    margin-top: 32px;
+    padding: 32px 0;
+  }
+
+  .title {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .body {
+    margin-top: 24px;
+
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .tabs {
+    padding: 0;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+
+    border-radius: 0;
+    background: transparent;
+  }
+
+  .tab {
+    padding: 12px 20px;
+
+    font-size: 16px;
+
+    border-radius: 12px;
+    border: 1px solid #8c8c8c;
+
+    &:hover, &.active {
+      border: 1px solid var(--color-accent);
+    }
+  }
+}

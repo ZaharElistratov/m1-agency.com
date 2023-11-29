@@ -1,0 +1,133 @@
+.contacts {
+  background: url("/img/home/contacts/background.png") no-repeat center left / contain;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.title {
+  padding-top: 60px;
+
+  font-family: var(--font-rostelecom);
+  font-weight: 700;
+
+  font-size: 170px;
+  line-height: 1.2em;
+  text-transform: uppercase;
+}
+
+.socials {
+  max-width: 1300px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+
+.item {
+  flex: 1 1 auto;
+
+  .title {
+    padding: 0;
+
+    font-size: 80px;
+    text-transform: uppercase;
+
+    color: var(--color-accent);
+  }
+
+  .link {
+    margin-top: 60px;
+    padding: 40px 60px;
+
+    display: block;
+
+    font-family: var(--font-rostelecom);
+    font-weight: 400;
+
+    font-size: 80px;
+    line-height: 1.2em;
+    text-transform: uppercase;
+
+    border-radius: 52px;
+    border: 5px solid #8c8c8c;
+    color: var(--color-white);
+  }
+}
+
+@media (max-width: 2980px) {
+  .title {
+    font-size: 64px;
+  }
+
+  .socials {
+    max-width: 520px;
+
+    gap: 24px;
+  }
+
+  .item {
+    flex: 1 1 auto;
+
+    .title {
+      font-size: 32px;
+    }
+
+    .link {
+      margin-top: 24px;
+      padding: 16px 24px;
+
+      font-size: 32px;
+
+      border-radius: 20px;
+      border: 2px solid #8c8c8c;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .contacts {
+    margin-top: 36px;
+    padding-bottom: 24px;
+
+    background-position: bottom ;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .title {
+    padding: 0;
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .socials {
+    margin-top: 50px;
+    max-width: 320px;
+
+    gap: 20px 8px;
+  }
+
+  .item {
+    flex: 1 1 auto;
+
+    .title {
+      font-size: 18px;
+    }
+
+    .link {
+      margin-top: 12px;
+      padding: 10px 20px;
+
+      font-size: 18px;
+
+      border-radius: 12px;
+      border: 1px solid #8c8c8c;
+    }
+  }
+}

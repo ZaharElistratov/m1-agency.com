@@ -1,0 +1,42 @@
+[
+  {
+    "locale": "en",
+    "links": [
+      {
+        "name": "Advertising Exchange",
+        "link": "https://t.me/OneMedia_Advertising",
+        "block": ""
+      },
+      {
+        "name": "Services",
+        "link": "",
+        "block": "services"
+      },
+      {
+        "name": "Feedback",
+        "link": "",
+        "block": "services"
+      }
+    ]
+  },
+  {
+    "locale": "ru",
+    "links": [
+      {
+        "name": "Рекламная биржа",
+        "link": "https://t.me/OneMedia_Advertising",
+        "block": ""
+      },
+      {
+        "name": "Услуги",
+        "link": "",
+        "block": "services"
+      },
+      {
+        "name": "Отзывы",
+        "link": "",
+        "block": "services"
+      }
+    ]
+  }
+]

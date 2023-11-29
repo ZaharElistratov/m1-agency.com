@@ -1,0 +1,64 @@
+[
+  {
+    "locale": "en",
+    "title": "Contacts",
+    "list": [
+      {
+        "title": "Email",
+        "text": "m1agency.com@gmail.com",
+        "link": "mailto:m1agency.com@gmail.com"
+      },
+      {
+        "title": "Telegram",
+        "text": "@M1_Agency",
+        "link": "https://t.me/M1_Agency"
+      },
+      {
+        "title": "Manager",
+        "text": "@M1_Daniil",
+        "link": "https://t.me/M1_Daniil"
+      }
+    ],
+    "form": {
+      "name": "Name",
+      "contact": "Email / Telegram",
+      "message": "Message",
+      "file": {
+        "no": "Upload file",
+        "have": "selected files:"
+      },
+      "button": "Send"
+    }
+  },
+  {
+    "locale": "ru",
+    "title": "Контакты",
+    "list": [
+      {
+        "title": "Email",
+        "text": "m1agency.com@gmail.com",
+        "link": "mailto:m1agency.com@gmail.com"
+      },
+      {
+        "title": "Telegram",
+        "text": "@M1_Agency",
+        "link": "https://t.me/M1_Agency"
+      },
+      {
+        "title": "Менеджер",
+        "text": "@M1_Daniil",
+        "link": "https://t.me/M1_Daniil"
+      }
+    ],
+    "form": {
+      "name": "Имя",
+      "contact": "Email / Telegram",
+      "message": "Сообщение",
+      "file": {
+        "no": "Загрузить Файлы",
+        "have": "Выбрано файлов:"
+      },
+      "button": "Отправить"
+    }
+  }
+]

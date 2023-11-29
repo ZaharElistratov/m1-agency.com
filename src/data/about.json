@@ -1,0 +1,98 @@
+[
+  {
+    "locale": "en",
+    "title": "About us",
+    "list": [
+      [
+        {
+          "title": "M1 Agency",
+          "text": "it's not just a brand, it's not a team, it's a family."
+        }
+      ],
+      [
+        {
+          "title": "M1 Agency",
+          "text": "— your reliable partner in the world of Telegram marketing!"
+        },
+        {
+          "title": "",
+          "text": "We provide everything you need to successfully launch and promote your Telegram business or channel. Our team of experts is ready to take on the hard work so you can focus on growing your business."
+        }
+      ],
+      [
+        {
+          "title": "",
+          "text": "Our Services:"
+        },
+        {
+          "title": "Content Creation:",
+          "text": "Our creative brains will develop content that will win the hearts of your audience. "
+        },
+        {
+          "title": "Creative Writing:",
+          "text": "Your channel will attract subscribers like a moth lamp!"
+        },
+        {
+          "title": "Creative design:",
+          "text": "We'll come up with a design that even Picasso would envy!"
+        },
+        {
+          "title": "Promotion and Growth:",
+          "text": "We know how to build a route to success and increase subscribers."
+        },
+        {
+          "title": "Sales Strategy:",
+          "text": "We will pick up the keys to the success of promoting your products."
+        }
+      ]
+    ]
+  },
+  {
+    "locale": "ru",
+    "title": "Про нас",
+    "list": [
+      [
+        {
+          "title": "M1 Agency",
+          "text": "это не просто бренд, это даже не команда, это — семья."
+        }
+      ],
+      [
+        {
+          "title": "M1 Agency",
+          "text": "— ваш надежный партнер в мире Telegram-маркетинга!"
+        },
+        {
+          "title": "",
+          "text": "Мы предоставляем все, что вам нужно для успешного запуска и продвижения бизнеса или канала в Telegram. Наша команда экспертов готова взять на себя тяжелую работу, чтобы вы могли сфокусироваться на росте вашего бизнеса."
+        }
+      ],
+      [
+        {
+          "title": "",
+          "text": "Наши услуги:"
+        },
+        {
+          "title": "Создание контента:",
+          "text": "Наши креативные мозги разработают контент, который завоюет сердца вашей аудитории."
+        },
+        {
+          "title": "Написание креативов:",
+          "text": "Ваш канал будет привлекать подписчиков, словно лампа мотылька!"
+        },
+        {
+          "title": "Креативное оформление:",
+          "text": "Мы разработаем дизайн, который даже Пикассо завидовал бы!"
+        },
+        {
+          "title": "Продвижение и рост:",
+          "text": "Мы знаем, как выстроить маршрут к успеху и увеличить подписчиков."
+        },
+        {
+          "title": "Стратегия продаж:",
+          "text": "Мы подберем ключи к успеху продвижения ваших продуктов."
+        }
+      ]
+    ]
+  }
+]

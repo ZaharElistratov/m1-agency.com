@@ -1,0 +1,50 @@
+[
+  {
+    "locale": "en",
+    "links": [
+      {
+        "name": "Home",
+        "block": "intro",
+        "link": ""
+      },
+      {
+        "name": "Services",
+        "block": "services",
+        "link": ""
+      },
+      {
+        "name": "Feedback",
+        "block": "",
+        "link": "https://t.me/OneMedia_Advertising"
+      }
+    ],
+    "button": {
+      "name": "Contact",
+      "link": "contacts"
+    }
+  },
+  {
+    "locale": "ru",
+    "links": [
+      {
+        "name": "Главная",
+        "block": "intro",
+        "link": ""
+      },
+      {
+        "name": "Услуги",
+        "block": "services",
+        "link": ""
+      },
+      {
+        "name": "Отзывы",
+        "block": "",
+        "link": "https://t.me/OneMedia_Advertising"
+      }
+    ],
+    "button": {
+      "name": "Связаться",
+      "link": "contacts"
+    }
+  }
+]
